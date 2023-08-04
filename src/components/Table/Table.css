@@ -1,0 +1,43 @@
+.tableStyle {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .tableStyle thead tr {
+    text-align: left;
+    font-weight: 800;
+  }
+  
+  .tableStyle tbody tr {
+    text-align: left;
+    font-weight: 300;
+  }
+  
+  .tableStyle tr {
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  .tableStyle th,
+  .tableStyle td {
+    padding: 12px 15px;
+  }
+  
+  .deleteButton:hover,
+  .editButton:hover {
+    cursor: pointer;
+  }
+  
+  .selectedRow {
+    background-color: #d9d9d9;
+  }
+  
+  .tableStyle th {
+    width: 100px;
+  }
+  
+  .checkboxColumn {
+    width: 200px;
+  }
